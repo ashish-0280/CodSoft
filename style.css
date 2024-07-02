@@ -11,18 +11,21 @@ body{
     height: 100vh;
 }
 h1{
-    text-align:left;
+    /* text-align:c; */
     padding: 10px;
-    font-size: 60px;
+    font-size: 65px;
     font-family: sans-serif;
     color: #5E503F;
     margin-bottom: 50px;
+    position: absolute;
 }
 .container{
     display: flex;
     justify-content: center;
     max-width: 530px;
     width: 90%;
+    margin-top: 12vh;
+    margin-left: 50vh;
     padding: 15px;
     height: 450px;
     flex-wrap: wrap;
@@ -31,6 +34,31 @@ h1{
 @media (max-width: 768px){
     .container{
         height: auto;
+        margin-top: 20vh;
+        margin-left: 16vh;
+    }
+    .heading{
+        margin-left: 25vh;
+    }
+    body{
+        display: inline-block;
+    }
+}
+@media (max-width: 550px){
+    .container{
+        height: auto;
+        margin-top: 30vh;
+        margin-left: 5vh;
+        width: 99%;
+    }
+    .display{
+        width: 100%;
+    }
+    .heading{
+        margin-left: 7vh;
+    }
+    body{
+        display: inline-block;
     }
 }
 

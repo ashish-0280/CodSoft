@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #bce88d;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #5E503F;
+    margin-bottom: 110px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    padding: 15px 5px 15px;
+    margin-left: 20px;
+    height: 250px;
+    border: 5px solid black;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+.display{
+    width: 90%;
+    height: 40px;
+    border: 3px solid red;
+    border-radius: 6px;
+}
+.btn{
+    width: 20%;
+    height: 50px;
+}

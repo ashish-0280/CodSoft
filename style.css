@@ -22,7 +22,7 @@ h1{
 .container{
     display: flex;
     justify-content: center;
-    max-width: 530px;
+    max-width: 650px;
     width: 90%;
     margin-top: 12vh;
     margin-left: 50vh;

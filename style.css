@@ -20,7 +20,7 @@ body{
     padding: 10px;
     font-size: 35px;
     font-family: sans-serif;
-    color: #443b2f;
+    color: #393128;
     margin-bottom: 50px;
     position: absolute;
     margin-top: 20vh;
@@ -75,12 +75,13 @@ body{
         display: inline-block;
     }
 }
-
-
 .display{
-    width: 96%;
+    width: 94%;
     height: 70px;
     background-color: whitesmoke;
+    font-size: 60px;
+    text-align: end;
+    font-weight: 700;
 }
 .btn{
     width: 23%;
@@ -93,26 +94,4 @@ button{
 }
 .clr{
     background-color: #92A29A;
-}
-
-
-.display{
-    width: 94%;
-    height: 70px;
-    background-color: rgb(167, 160, 160);
-    font-size: 60px;
-    text-align: end;
-    font-weight: 700;
-}
-.btn{
-    width: 23%;
-    height: 90px;
-    border: none;
-    font-size: 30px;
-}
-button{
-    background-color: #008487;
-}
-.clr{
-    background-color: #4da8ab;
 }

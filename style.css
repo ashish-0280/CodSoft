@@ -4,30 +4,36 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(0,62,77,255);
-    display: flex;
+    background-color: #fff;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url("images (2).jpeg");
+    background-size: cover;
+    background-repeat: none;
 }
-h1{
+.heading{
     /* text-align:c; */
+    display: flex;
+    align-items: center;
     padding: 10px;
-    font-size: 65px;
+    font-size: 35px;
     font-family: sans-serif;
-    color: #5E503F;
+    color: #443b2f;
     margin-bottom: 50px;
     position: absolute;
+    margin-top: 20vh;
 }
 .container{
     display: flex;
     justify-content: center;
-    max-width: 650px;
+    max-width: 720px;
     width: 90%;
     margin-top: 12vh;
     margin-left: 50vh;
-    padding: 15px;
-    height: 450px;
+    padding: 35px 20px 30px;
+    height: 480px;
     flex-wrap: wrap;
     gap: 4px;
 }
@@ -38,18 +44,26 @@ h1{
         margin-left: 16vh;
     }
     .heading{
-        margin-left: 25vh;
+        font-size: 40px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
     }
     body{
         display: inline-block;
     }
 }
 @media (max-width: 550px){
+    .heading{ 
+        font-size: 25px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+    }
     .container{
-        height: auto;
-        margin-top: 30vh;
-        margin-left: 5vh;
-        width: 99%;
+        width: 380px;
+        margin-left: revert;
+        background-size: cover;
     }
     .display{
         width: 100%;
@@ -62,10 +76,30 @@ h1{
     }
 }
 
+
+.display{
+    width: 96%;
+    height: 70px;
+    background-color: rgb(167, 160, 160);
+}
+.btn{
+    width: 23%;
+    height: 90px;
+    border: none;
+    font-size: 30px;
+}
+button{
+    background-color: #008487;
+}
+.clr{
+    background-color: #4da8ab;
+}
+
+
 .display{
     width: 94%;
     height: 70px;
-    background-color: #f2f2f2;
+    background-color: rgb(167, 160, 160);
 }
 .btn{
     width: 23%;

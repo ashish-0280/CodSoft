@@ -29,7 +29,8 @@ array.forEach(btns => {
             string2 = "";
             show.innerText = string2;
         } else if(event.target.innerHTML == "="){
-            string2 = eval(string2);
+            let result = eval(string2);
+            string2 = result.toString();
             show.innerText = string2;
         } else {
             string2 += event.target.innerHTML;

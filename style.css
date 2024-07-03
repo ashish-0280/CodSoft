@@ -97,4 +97,5 @@ button{
     font-size: 60px;
     text-decoration: none;
     color: #393128;
+    overflow: hidden;
 }

@@ -65,7 +65,7 @@ body{
         margin-left: revert;
         background-size: cover;
     }
-    .display{
+    #input-display{
         width: 100%;
     }
     .heading{
@@ -75,23 +75,26 @@ body{
         display: inline-block;
     }
 }
-.display{
-    width: 94%;
-    height: 70px;
-    background-color: whitesmoke;
-    font-size: 60px;
-    text-align: end;
-    font-weight: 700;
-}
-.btn{
+button{
+    background-color: #82968C;
     width: 23%;
     height: 90px;
     border: none;
     font-size: 30px;
-}
-button{
-    background-color: #82968C;
+    cursor: pointer;
 }
 .clr{
     background-color: #92A29A;
+}
+#input-display{
+    width: 94%;
+    height: 70px;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: end;
+    font-size: 60px;
+    text-decoration: none;
+    color: #393128;
 }

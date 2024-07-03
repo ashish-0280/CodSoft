@@ -11,5 +11,13 @@ const transitionText = () =>{
     };
 };
 transitionText();
-let againTransition = document.querySelector("h1");
-// againTransition.addEventListener("click", transitionText());
+let boxes = document.querySelectorAll("button");
+let display = document.querySelector(".display");
+
+console.log(boxes);
+let array = Array.from(boxes);
+array.forEach((btn) => {
+    btn.addEventListener("click", ()=>{
+        console.log(btn);
+    });
+});

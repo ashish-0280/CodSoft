@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #fff;
+    background-color: #6A705E;
     /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("images (2).jpeg");
+    /* background-image: url("images (2).jpeg");
     background-size: cover;
-    background-repeat: none;
+    background-repeat: none; */
 }
 .heading{
     /* text-align:c; */
@@ -80,7 +80,7 @@ body{
 .display{
     width: 96%;
     height: 70px;
-    background-color: rgb(167, 160, 160);
+    background-color: whitesmoke;
 }
 .btn{
     width: 23%;
@@ -89,10 +89,10 @@ body{
     font-size: 30px;
 }
 button{
-    background-color: #008487;
+    background-color: #82968C;
 }
 .clr{
-    background-color: #4da8ab;
+    background-color: #92A29A;
 }
 
 
@@ -100,6 +100,9 @@ button{
     width: 94%;
     height: 70px;
     background-color: rgb(167, 160, 160);
+    font-size: 60px;
+    text-align: end;
+    font-weight: 700;
 }
 .btn{
     width: 23%;
